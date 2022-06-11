@@ -1,0 +1,32 @@
+.userCard{
+    border: 1rem grey solid;
+    width: 30vw;
+    margin: 5vh;
+    padding: 3% 0;
+}
+
+.details{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 80%;
+}
+.repsNumber{
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0%;
+
+}
+h4{
+    color: grey;
+}
+h2{
+    color: white;
+}
+h3{
+    color: blue;
+}
