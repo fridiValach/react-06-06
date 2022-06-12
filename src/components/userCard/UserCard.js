@@ -7,7 +7,9 @@ const UserCard = ({user, users, setUsers}) => {
     <div className='userCard'>
         <div className='details'>
         <img src={user.avatar_url} alt="avatar"/>
-        <h3>{user.name?user.name:user.login}</h3>
+         <h3>{user.nameForDisplay}</h3>
+
+       {/* <h3>{user.name?user.name:user.login}</h3>*/}
         <h4>Created AT: {user.created_at.split("T")[0]}</h4>
         </div>
         <div className='repsNumber'>
